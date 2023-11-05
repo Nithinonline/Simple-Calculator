@@ -1,0 +1,65 @@
+body {
+  
+  background-color: rgb(1, 137, 121);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} 
+
+.display{
+  display: grid;
+}
+.out {
+  display: grid;
+
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: minmax(60px);
+  padding: 20px; 
+}
+
+.button {
+  size: 10px;
+  margin: 10px;
+  display: grid;
+}
+
+.Input,
+.Result {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 295px;
+  height: 40px;
+  font-size: large;
+  text-align: end;
+  margin-top: 10px;
+  display: grid;
+  }
+
+
+h2{
+  color: #fff;
+  
+
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(18, 19, 19);
+  border-radius: 12px;
+  border: 1px solid rgb(255, 255, 255);
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.6));
+  width: auto;
+}
+
+
+
+
